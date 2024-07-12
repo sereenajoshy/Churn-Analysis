@@ -4,3 +4,6 @@
 The data set I'll be using is a longstanding telecom customer data set.
 
 The data is straightforward. Each row represents a subscribing telephone customer. Each column contains customer attributes such as phone number, call minutes used during different times of day, charges incurred for services, lifetime account duration, and whether or not the customer is still a customer.
+# Environment
+u Python’s popular ML library Scikit-learn would used to build the model.
+u Jupyter Notebook would be used to code/develop the project
