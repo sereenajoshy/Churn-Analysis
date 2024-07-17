@@ -10,12 +10,14 @@ The data is straightforward. Each row represents a subscribing telephone custome
 - For preprocessing LabelEncoder is used.It converts categorical labels (strings or numbers) into a format that can be provided to machine learning algorithms which means 0s and 1s.
 - 'drop' method is used for data cleaning process. It is a specific method provided by pandas DataFrames. It is used to remove columns or rows from a DataFrame based on specified labels.
 - Then data visualisation,two methods are used:
-       Scatter Plot: Used to visualize the relationship between two variables (here, 'VMail Plan' and 'Churn?')
-       Histogram Plot: Used to visualize the distribution of a single variable (here, 'VMail Message')
+  * Scatter Plot: Used to visualize the relationship between two variables (here, 'VMail Plan' and 'Churn?')
+  * Histogram Plot: Used to visualize the distribution of a single variable (here, 'VMail Message')
 - The train_test_split function is used to split the dataset into two subsets,x and y for training and testing purposes.
 - Finally classification and prediction process,
-       KNeighborsClassifier: It is an instance-based classifier that predicts the class of a data point by identifying its nearest neighbors in the feature space, making it effective for smaller datasets and straightforward classification tasks.
-       SVC (Support Vector Classifier): It constructs hyperplanes in high-dimensional space to separate classes, using various kernels like linear, polynomial, or radial basis function(here, linear) to handle complex decision boundaries and is suited for larger datasets and tasks requiring non-linear classification or regression.
+  * KNeighborsClassifier: It is an instance-based classifier that predicts the class of a data point by identifying its nearest neighbors in the feature space, making it effective for smaller datasets and 
+    straightforward classification tasks.
+  * SVC (Support Vector Classifier): It constructs hyperplanes in high-dimensional space to separate classes, using various kernels like linear, polynomial, or radial basis function(here, linear) to handle 
+    complex decision boundaries and is suited for larger datasets and tasks requiring non-linear classification or regression.
 
                    
 
