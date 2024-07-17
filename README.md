@@ -5,7 +5,7 @@ The data set I'll be using is a longstanding telecom customer data set.
 
 The data is straightforward. Each row represents a subscribing telephone customer. Each column contains customer attributes such as phone number, call minutes used during different times of day, charges incurred for services, lifetime account duration, and whether or not the customer is still a customer.
 # Environment
-- Jupyter Notebook is used to code/develop the project.
+- Jupyter Notebook is used to develop the project.
 - Python’s popular ML library Scikit-learn is used to build the model.
 - For preprocessing LabelEncoder is used.It converts categorical labels (strings or numbers) into a format that can be provided to machine learning algorithms which means 0s and 1s.
 - 'drop' method is used for data cleaning process. It is a specific method provided by pandas DataFrames. It is used to remove columns or rows from a DataFrame based on specified labels.
